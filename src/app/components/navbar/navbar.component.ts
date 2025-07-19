@@ -10,4 +10,5 @@ import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
 export class NavbarComponent {
 
   logo: string = 'brand.jpg';
+
 }

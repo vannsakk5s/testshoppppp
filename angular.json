@@ -22,11 +22,16 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/assets",
-            {
-              "glob": "**/*",
-              "input": "src/slider",
-              "output": "/assets/slider"
-            }
+  {
+    "glob": "**/*",
+    "input": "src/slider",
+    "output": "/assets/slider"
+  },
+  {
+    "glob": "**/*",
+    "input": "public",
+    "output": "/"
+  }
             ],
             "styles": [
               "src/styles.css"
